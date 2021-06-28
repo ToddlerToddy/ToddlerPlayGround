@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Toddler Learning Playground</title>
+  </head>
+  <body data-barba="wrapper">
+    <!-- page header and menu burger -->
+    <header class="nav-header">
+      <h1><a href="../Third Screen/CardGridsWise.html" id="logo">Back</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+
+    <!-- main page -->
+    <main data-barba="container" data-barba-namespace="fashion">
+      <!-- 01 -->
+      <section class="fashion1 detail-slide">
+        <div class="fashion-text">
+          <h1>Charles Babbage: "The Father of Computing" </h1>
+          <p>
+            Charles Babbage was born on December 26, 1791, the son of Benjamin Babbage, a London banker. 
+            As a youth Babbage was his own instructor in algebra, of which he was passionately fond, and was well read in the continental mathematics of his day. Upon entering Trinity College, Cambridge, in 1811,
+             he found himself far in advance of his tutors in mathematics. Babbage co-founded the Analytical Society for promoting continental mathematics and reforming the mathematics of Newton then taught at the university.
+
+            In his twenties Babbage worked as a mathematician, principally in the calculus of functions. He was elected a Fellow of the Royal Society in 1816 and played a prominent part in the foundation of the Astronomical Society 
+            (later Royal Astronomical Society) in 1820. It was about this time that Babbage first acquired the interest in calculating machinery that became his consuming passion for the remainder of his life.
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="./img/Charles Babbage.jpg" alt="Charles Babbage" />
+        </div>
+      </section>
+      <!-- 02 -->
+      <section class="fashion2 detail-slide">
+        <div class="fashion-text">
+          <h1>Babbage invented the Difference Engine to compile mathematical tables</h1>
+          <p>
+            In 1821 Babbage invented the Difference Engine to compile mathematical tables. On completing it in 1832,
+             he conceived the idea of a better machine that could perform not just one mathematical task but any kind of calculation. This was the Analytical Engine (1856), which was intended as a general symbol manipulator, and had some of the characteristics of today’s computers.
+
+            Unfortunately, little remains of Babbage's prototype computing machines. Critical tolerances required by his machines exceeded the level of technology available at the time. And, 
+            though Babbage’s work was formally recognized by respected scientific institutions, the British government suspended funding for his Difference Engine in 1832, and after an agonizing waiting period, 
+            ended the project in 1842. There remain only fragments of Babbage's prototype Difference Engine, and though he devoted most of his time and large fortune towards construction of his Analytical Engine after 1856, he never succeeded in completing any of his several designs for it. 
+            George Scheutz, a Swedish printer, successfully constructed a machine based on the designs for Babbage's Difference Engine in 1854. This machine printed mathematical, astronomical and actuarial tables with unprecedented accuracy, and was used by the British and American governments. Though Babbage's work was continued by his son, Henry Prevost Babbage, 
+            after his death in 1871, the Analytical Engine was never successfully completed, and ran only a few "programs" with embarrassingly obvious errors.
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="./img/Difference Engine.jpg" alt="Difference Engine" />
+        </div>
+      </section>
+      <!-- 03 -->
+      <section class="fashion3 detail-slide">
+        <div class="fashion-text">
+          <h1>Babbage occupied the Lucasian chair of mathematics at Cambridge</h1>
+          <p>
+            Babbage occupied the Lucasian chair of mathematics at Cambridge from 1828 to 1839. He played an important role in the establishment of the Association for the Advancement of Science and the Statistical Society (later Royal Statistical Society). He also attempted to reform the 
+            scientific organizations of the period while calling upon government and society to give more money and prestige to scientific endeavor. Throughout his life Babbage worked in many intellectual fields typical of his day, and made contributions that would have assured his fame irrespective of the Difference and Analytical Engines.
+
+            Despite his many achievements, the failure to construct his calculating machines, and in particular the failure of the government to support his work, left Babbage in his declining years a disappointed and embittered man. He died at his home in London on October 18, 1871.
+          </p>
+        </div>
+        <div class="fashion-img">
+          <img src="./img/C Babbage .jpg" alt="Charles Babbage" />
+        </div>
+       
+      </section>
+    </main>
+
+    <!-- animated navbar -->
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Twitter</h3>
+        <h3>Gmail</h3>
+        <h3>LinkedIn</h3>
+      </ul>
+      <div class="contact">
+        <h2>Stay In Touch With Developer</h2>
+        <p>
+         ernestkapesa@gmail.com
+        </p>
+      </div>
+    </nav>
+
+    <!-- highlight the cursor -->
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+
+    <!-- swiping divs upon visiting a new page -->
+    <div class="swipe1"></div>
+    <div class="swipe2"></div>
+    <div class="swipe3"></div>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!--Improving Animation-->
+    <!--<script src="./app.js"></script>-->
+  </body>
+</html>
